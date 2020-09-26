@@ -1,0 +1,19 @@
+{
+  "config": {
+    "vendor-dir": "library"
+  },
+  "require": {
+    "steampixel/simple-php-router": "0.4.1",
+    "mustache/mustache": "~2.5",
+    "bainternet/php-hooks": "*",
+    "delight-im/cookie": "1.2.0",
+    "rakit/validation": "1.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+    ]
+  }
+}
